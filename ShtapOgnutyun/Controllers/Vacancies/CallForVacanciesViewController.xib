@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CallForVacanciesViewController" customModule="ShtapOgnutyun" customModuleProvider="target">
+            <connections>
+                <outlet property="applyWorkLabel" destination="wJa-Y0-ib5" id="Fcn-9h-UBw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="contact_us_bg" translatesAutoresizingMaskIntoConstraints="NO" id="owz-aR-Ka4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ogG-0e-zeM">
+                    <rect key="frame" x="16.5" y="171" width="288" height="226.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoMedium" translatesAutoresizingMaskIntoConstraints="NO" id="ran-1X-9KB">
+                            <rect key="frame" x="118" y="30" width="52" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="ran-1X-9KB" secondAttribute="height" id="AvS-4t-3LF"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IN3-e0-IJn" customClass="BorderedButton" customModule="ShtapOgnutyun" customModuleProvider="target">
+                            <rect key="frame" x="122.5" y="92" width="43.5" height="42"/>
+                            <color key="backgroundColor" red="0.22352941179999999" green="0.70980392160000005" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="IN3-e0-IJn" secondAttribute="height" constant="1" id="9YQ-d7-WBZ"/>
+                            </constraints>
+                            <state key="normal" image="call"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="wJa-Y0-ib5" customClass="SOLocalizedLabel" customModule="ShtapOgnutyun" customModuleProvider="target">
+                            <rect key="frame" x="40" y="144" width="207.5" height="72.5"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                            <color key="textColor" red="0.94509803920000002" green="0.72549019609999998" blue="0.3803921569" alpha="0.94534000880000002" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="0.94963138199999997" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="wJa-Y0-ib5" firstAttribute="leading" secondItem="ogG-0e-zeM" secondAttribute="leading" constant="40" id="00M-Eo-d32"/>
+                        <constraint firstAttribute="trailing" secondItem="wJa-Y0-ib5" secondAttribute="trailing" constant="40" id="2pJ-nO-VLe"/>
+                        <constraint firstItem="IN3-e0-IJn" firstAttribute="width" secondItem="ogG-0e-zeM" secondAttribute="width" multiplier="0.15" id="FsN-Ug-D0O"/>
+                        <constraint firstItem="ran-1X-9KB" firstAttribute="width" secondItem="ogG-0e-zeM" secondAttribute="width" multiplier="0.18" id="Je7-Dz-Nbi"/>
+                        <constraint firstItem="IN3-e0-IJn" firstAttribute="centerX" secondItem="ogG-0e-zeM" secondAttribute="centerX" id="KxL-Ij-vZ2"/>
+                        <constraint firstItem="ran-1X-9KB" firstAttribute="top" secondItem="ogG-0e-zeM" secondAttribute="top" constant="30" id="V5F-ur-Iv6"/>
+                        <constraint firstItem="wJa-Y0-ib5" firstAttribute="top" secondItem="IN3-e0-IJn" secondAttribute="bottom" constant="10" id="rJH-Kt-lCo"/>
+                        <constraint firstItem="IN3-e0-IJn" firstAttribute="top" secondItem="ran-1X-9KB" secondAttribute="bottom" constant="10" id="sTB-Aa-pNA"/>
+                        <constraint firstItem="ran-1X-9KB" firstAttribute="centerX" secondItem="ogG-0e-zeM" secondAttribute="centerX" id="uIW-o4-EYL"/>
+                        <constraint firstAttribute="bottom" secondItem="wJa-Y0-ib5" secondAttribute="bottom" constant="10" id="zpf-6h-SU3"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ogG-0e-zeM" firstAttribute="centerY" secondItem="owz-aR-Ka4" secondAttribute="centerY" id="5H6-Iy-NQS"/>
+                <constraint firstItem="ogG-0e-zeM" firstAttribute="width" secondItem="owz-aR-Ka4" secondAttribute="width" multiplier="0.9" id="Kfm-Ql-071"/>
+                <constraint firstAttribute="trailing" secondItem="owz-aR-Ka4" secondAttribute="trailing" id="NQx-8u-37v"/>
+                <constraint firstItem="owz-aR-Ka4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="T5g-cB-3ES"/>
+                <constraint firstItem="owz-aR-Ka4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="bQR-7P-0oz"/>
+                <constraint firstItem="ogG-0e-zeM" firstAttribute="height" secondItem="owz-aR-Ka4" secondAttribute="height" multiplier="0.4" id="bxw-hO-POb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="owz-aR-Ka4" secondAttribute="bottom" id="ciJ-CD-wSd"/>
+                <constraint firstItem="ogG-0e-zeM" firstAttribute="centerX" secondItem="owz-aR-Ka4" secondAttribute="centerX" id="rCY-Es-p3d"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LogoMedium" width="100" height="100"/>
+        <image name="call" width="23" height="23"/>
+        <image name="contact_us_bg" width="750" height="1334"/>
+    </resources>
+</document>

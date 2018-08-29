@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CraftsmanViewController" customModule="ShtapOgnutyun" customModuleProvider="target">
+            <connections>
+                <outlet property="craftmanTableView" destination="2Fh-u2-K7m" id="lRe-5Y-g0w"/>
+                <outlet property="emptyCrafstManLabel" destination="aum-Lv-I7U" id="DT6-lF-SjC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_rate_master_bg" translatesAutoresizingMaskIntoConstraints="NO" id="iPU-6c-pof">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Fh-u2-K7m">
+                    <rect key="frame" x="19" y="20" width="337.5" height="647"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="craftsman_empty_list" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aum-Lv-I7U" customClass="SOLocalizedLabel" customModule="ShtapOgnutyun" customModuleProvider="target">
+                    <rect key="frame" x="20" y="323" width="335" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.95686274510000002" green="0.62745098040000002" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iPU-6c-pof" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="1Ku-4S-Uk9"/>
+                <constraint firstItem="2Fh-u2-K7m" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="EDv-Yf-Jnp"/>
+                <constraint firstItem="aum-Lv-I7U" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="JpH-J7-CQW"/>
+                <constraint firstItem="aum-Lv-I7U" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Llv-bM-vAP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="iPU-6c-pof" secondAttribute="trailing" id="O74-Gf-bAc"/>
+                <constraint firstItem="2Fh-u2-K7m" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.9" id="TWF-IV-Exb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aum-Lv-I7U" secondAttribute="trailing" constant="20" id="e5n-bL-y9g"/>
+                <constraint firstItem="iPU-6c-pof" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="eYH-EW-6fC"/>
+                <constraint firstItem="2Fh-u2-K7m" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hT9-rG-Kqv"/>
+                <constraint firstAttribute="bottom" secondItem="iPU-6c-pof" secondAttribute="bottom" id="kSR-9N-fda"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="2Fh-u2-K7m" secondAttribute="bottom" id="pgH-Rj-phF"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_rate_master_bg" width="608" height="912"/>
+    </resources>
+</document>

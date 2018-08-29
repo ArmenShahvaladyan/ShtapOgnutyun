@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ryx-VC-eXj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerID" id="BYZ-38-t0r" customClass="ViewController" customModule="ShtapOgnutyun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="114"/>
+        </scene>
+        <!--Content View Controller-->
+        <scene sceneID="G1M-3g-4uI">
+            <objects>
+                <viewController storyboardIdentifier="ContentViewControllerID" id="98H-zu-GG6" customClass="ContentViewController" customModule="ShtapOgnutyun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Ji-wD-UWo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginBackground" translatesAutoresizingMaskIntoConstraints="NO" id="bZH-gj-fvx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hHk-Oc-iKc" firstAttribute="bottom" secondItem="bZH-gj-fvx" secondAttribute="bottom" id="MlV-ZS-lrS"/>
+                            <constraint firstItem="hHk-Oc-iKc" firstAttribute="trailing" secondItem="bZH-gj-fvx" secondAttribute="trailing" id="a1u-jn-jpo"/>
+                            <constraint firstItem="bZH-gj-fvx" firstAttribute="top" secondItem="hHk-Oc-iKc" secondAttribute="top" id="dAO-wk-qbZ"/>
+                            <constraint firstItem="bZH-gj-fvx" firstAttribute="leading" secondItem="hHk-Oc-iKc" secondAttribute="leading" id="mwu-sz-73L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hHk-Oc-iKc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="U8N-Uu-Huf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bz1-aw-x4d" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1455" y="114"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Goc-1r-abl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ryx-VC-eXj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sWw-3I-PaO">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xMU-9u-wzz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="114"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="loginBackground" width="750" height="1334"/>
+    </resources>
+</document>

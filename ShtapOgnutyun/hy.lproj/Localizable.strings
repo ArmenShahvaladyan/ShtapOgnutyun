@@ -1,0 +1,117 @@
+/* 
+  Localizable.strings
+  ShtapOgnutyun
+
+  Created by My Mac on 5/15/18.
+  Copyright © 2018 SixelIT. All rights reserved.
+*/
+
+//home
+"not_found_categories" = "Առայժմ ծառայություններ չկան";
+"no_vacancies_found" = "Աշխատատեղեր չկան";
+"home" = "Գլխավոր";
+"client" = "Հաճախորդ";
+"vacancies" = "Աշխատատեղ";
+
+
+//history
+"history" = "Պատմություն";
+"no_internet" = "Խնդրում ենք ստուգել ինտերնետ կապը";
+"empty_history" = "Դուք դեռ չունեք պատվերներ";
+"bonus" = "ԲՈՆՈՒՍ";
+"date" = "Ամսաթիվ";
+"paid" = "Վճար";
+
+"settings" = "Կարգավորումներ";
+"login" = "Մուտք";
+"login_desc" = "Մուտքի համար լրացրեք էլեկտրոնային հասցեն և գաղտնաբառը։";
+"phone" = "Հեռախոս";
+"password" = "Ծածկագիր";
+"confirm_password" = "Հաստատել Ծածկագիրը";
+"create_new_account" = "Ստեղծել նոր անձնական էջ";
+"registration" = "Գրանցում";
+"register" = "Գրանցվել";
+"register_an_account" = "Գրանցել պրոֆիլը";
+"full_name" = "Անուն, Ազգանուն";
+"email_address" = "Էլ. հասցե";
+"phone_number" = "Հեռախոսահամար";
+"have_an_account" = "Դուք ունե՞ք պրոֆիլ";
+"forgot_password" = "Վերականգնել գաղտնաբառը";
+
+//craftsman
+"craftsman" = "Մասնագետ";
+"craftsman_empty_list" = "Ներկա պահին մասնագետներ չկան։";
+
+//contact us
+"contact_us" = "Կապվեք մեզ հետ";
+"contact_us_desc" = "Հարգելի հաճախորդ, խնդրում ենք մուտք գործել` պատվերի պատմությունը տեսնելու եւ վարպետին գնահատելու համար։";
+"contact_us_desc1" = "Հարգելի հաճախորդ, պատվերը հաստատելու համար զանգահարեք։";
+"online" = "Առցանց";
+"apply_to_work" = "Աշխատանքին դիմելու համար, խնդրում ենք կապ հաստատել մեզ հետ՝ զանգի կոճակը սեղմելով։";
+
+//rate master
+
+"rate_master" = "Գնահատել վարպետին";
+"comment" = "Մեկնաբանություն";
+"please_enter_your_comment" = "Թողնել մեկնաբանություն";
+"send" = "ՈՒղարկել";
+
+//Settings
+
+"logOut" = "Ելք";
+"language" = "Լեզու";
+"cancel" = "Փակել";
+"done" = "Հաստատել";
+
+//Vacancies
+
+"vacancies" = "Աշխատատեղ";
+
+// server responces
+"internal_server_error" = "Սերվերի սխալ";
+"please_login_in_order_to_make_online_order" = "Մուտք գործել, առցանց պատվեր կատարելու համար";
+"please_fill_all_fields" = "Խնդրում ենք լրացնել բոլոր դաշտերը";
+"phone_number_already_registered" = "Հեռախոսահամարը արդեն գրանցված է";
+"phone_number_already_isntRegistered" = "Հեռախոսահամարը գրանցված չէ";
+"phone_number_already_registered_please_activate_profile_on_login_page" = "Հեռախոսահամարը արդեն գրանցված է, ակտիվացնելու համար գնալ մուտքի էջ";
+"password_should_be_6_to_60" = "Գաղտնաբառը պետք է լինի 6-60 միջակայքում";
+"name_should_be_2_to_60" = "Անունը պետք է լինի 2-60 միջակայքում";
+"phoneNumber_or_password_is_incorrect" = "Հեռախոսահամարը կամ գաղտնաբառը սխալ է";
+"name_field_is_required_or_incorrect" = "Անվան դաշտը պարտադիր է կամ սխալ է";
+"phone_number_is_required" = "Հեռախոսահամարը պարտադիր է";
+"passwords_dont_match!" = "Գաղտնաբառերը չեն համընկնում";
+
+"passwords_succsesfuly_saved!" = "Գաղտնաբաը հաջողությամբ փոփոխված է";
+
+"enter_email_with_correct_format!" = "Էլ. հասցեն մուտքագրեք ճիշտ ձևաչափով";
+"changes_successfully_saved" = "Փոփոխությունները հաջողությամբ պահպանվել են";
+"please_try_image_with_formats" = "Խնդրում ենք վերբեռնել  .png, .jpg կամ .jpeg ձևաչափերով նկար";
+"image_is_too_large_or_too_small" = "Պատկերի չափը սխալ է";
+"email_already_exist_in_database" = "Էլ. փոստը արդեն գոյություն ունի";
+
+"code_is_incorrect" = "Կոդը սխալ է";
+
+"code_is_required" = "Կոդը պարտադիր է";
+
+"code_is_wrong_format" = "Կոդը մուտքագրեք ճիշտ ձևաչափով";
+
+"rate_values_is_incorrect" = "Սխալ նշված գնահատական";
+"successfully_rated" = "Հաջողությամբ գնահատվել է";
+"comment_should_be_in_1_to_200_range" = "Մեկնաբանությունը պետք է լինի 1-200 միջակայքում";
+"there_is_no_such_worker_in_database" = "Տվյալների բազայում նման աշխատող չի գտնվել";
+"your_order_already_in_pending_with_this_worker" = "Ձեր պատվերը արդեն սպասման մեջ է";
+"your_order_is_confirmed" = "Ձեր պատվերը հաստատված է";
+"phone_number_is_empty_or_incorrect" = "Հեռախոսահամարը դատարկ է կամ սխալ";
+"phone_number_format_is_incorrect" = "Հեռախոսահամարը մուտքագրեք ճիշտ ձևաչափով";
+// Alert actions
+"please_try_later" = "Խնդրում ենք փորձել մի փոքր ուշ";
+"please_wait_for_code" = "Խնդրում ենք սպասել ակտիվացման կոդին";
+"code" = "Կոդ";
+"please_activate_your_profile" = "Խնդրում ենք ակտիվացնել ձեր անձնական էջը";
+"activation" = "Ակտիվացնել";
+"resend" = "Կրկին ուղարկել";
+"this_app_is_not_allowed_to_query_for_scheme_tel" = "Այս ծրագիրը չի աջակցում զանգի ֆունկցիոնալությունը";
+"warning" = "Ուշադրությու՛ն";
+"rate_order" = "Գնահատել պատվերը";
+"your_rate_for_order_is" = "Ձեր գնահատականն է";
+"Ok" = "Հաստատել";

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ServiceCollectionHeaderView" reuseIdentifier="ServiceCollectionHeaderView" id="U6b-Vx-4bR" customClass="ServiceCollectionHeaderView" customModule="ShtapOgnutyun" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="O1I-Th-mNO">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTy-Zs-xZT" customClass="SOLocalizedButton" customModule="ShtapOgnutyun" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="50"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="client" image="radio_button">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="selected" image="radio_button_selected"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            </variation>
+                            <connections>
+                                <action selector="employerButtonClicked:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="7O4-HP-M7I"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YjI-5Y-4zN" customClass="SOLocalizedButton" customModule="ShtapOgnutyun" customModuleProvider="target">
+                            <rect key="frame" x="160" y="0.0" width="160" height="50"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="vacancies" image="radio_button">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <state key="selected" image="radio_button_selected"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            </variation>
+                            <connections>
+                                <action selector="consecteturButtonClick:" destination="U6b-Vx-4bR" eventType="touchUpInside" id="OQL-sj-ZYg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="O1I-Th-mNO" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="6EO-aM-cGf"/>
+                <constraint firstItem="O1I-Th-mNO" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="KOc-2h-zBp"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="O1I-Th-mNO" secondAttribute="trailing" id="XjA-gM-UuU"/>
+                <constraint firstAttribute="bottom" secondItem="O1I-Th-mNO" secondAttribute="bottom" id="uc6-xb-XOd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="consecteturButton" destination="YjI-5Y-4zN" id="TZp-oe-YO7"/>
+                <outlet property="employerButton" destination="dTy-Zs-xZT" id="cQn-xT-wa2"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="radio_button" width="20" height="20"/>
+        <image name="radio_button_selected" width="20" height="20"/>
+    </resources>
+</document>

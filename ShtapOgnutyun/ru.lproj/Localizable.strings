@@ -1,0 +1,108 @@
+/* 
+  Localizable.strings
+  ShtapOgnutyun
+
+  Created by My Mac on 5/15/18.
+  Copyright © 2018 SixelIT. All rights reserved.
+*/
+
+//home
+"not_found_categories" = "Категории не найдены";
+"no_vacancies_found" = "Вакансии не найдены";
+"home" = "Главная";
+"client" = "Клиент";
+"vacancies" = "Вакансии";
+
+//history
+"history" = "История";
+"no_internet" = "Пожалуйста, проверьте подключение к Интернету.";
+"empty_history" = "У вас еще нет истории";
+"paid" = "Плата";
+"date" = "Дата";
+"bonus" = "БОНУС";
+
+"settings" = "Настройки";
+"login" = "Войти";
+"login_desc" = "Введите адрес электронной почты и пароль для входа";
+"phone" = "Телефон";
+"password" = "Пароль";
+"confirm_password" = "Подтвердите Пароль";
+"create_new_account" = "Создать новый аккаунт";
+"registration" = "Регистрация";
+"register" = "Регистрация";
+"register_an_account" = "Зарегистрировать аккаунт";
+"full_name" = "Полное имя";
+"email_address" = "Адрес электронной почты";
+"phone_number" = "Номер телефона";
+"have_an_account" = "У вас есть аккаунт?";
+"forgot_password" = "Забыли пароль";
+
+//craftsman
+"craftsman" = "Мастер";
+"craftsman_empty_list" = "На данный момент нет рабочих";
+
+
+//contact us
+"contact_us" = "Свяжитесь с нами";
+"contact_us_desc" = "Уважаемый покупатель, пожалуйста, войдите, чтобы посмотреть историю заказов и оценить мастера.";
+"contact_us_desc1" = "Уважаемый покупатель, пожалуйста, позвоните, чтобы подтвердить заказ.";
+"online" = "Oнлайн";
+"apply_to_work" = "Для того чтобы подать заявку на работу, пожалуйста свяжитесь с нами, нажав на кнопку звонка.";
+
+//rate master
+
+"rate_master" = "Оценить мастера";
+"comment" = "Комментарий";
+"please_enter_your_comment" = "Введите комментарий";
+"send" = "Отправить";
+
+//Settings
+
+"logOut" = "Выход";
+"language" = "Язык";
+"cancel" = "Отмена";
+"done" = "Выбрать";
+
+// server responces
+"internal_server_error" = "Внутренняя ошибка сервера";
+"please_login_in_order_to_make_online_order" = "Для онлайн заказа требуется вход";
+"please_fill_all_fields" = "Пожалуйста, заполните все поля";
+"phone_number_already_registered" = "Этот номер телефона уже зарегистрирован";
+"phone_number_already_isntRegistered" = "Номер телефона не зарегистрирован";
+"phone_number_already_registered_please_activate_profile_on_login_page" = "Уже зарегистрированный номер телефона, пожалуйста, активируйте профиль на странице входа";
+"password_should_be_6_to_60" = "Пароль должен быть 6 ... 60";
+"name_should_be_2_to_60" = "Имя должно быть 2 ... 60";
+"login_or_password_is_incorrect" = "Неверно указан логин или пароль";
+"name_field_is_required_or_incorrect" = "Поле имени обязательно или неверно указан";
+"phone_number_is_required" = "Обязательно указать номер телефона";
+"passwords_dont_match!" = "Пароли не совпадают!";
+"passwords_succsesfuly_saved!" = "Пароль успешно изменен";
+"enter_email_with_correct_format!" = "Введите адрес электронной почты в правильном формате!";
+"changes_successfully_saved" = "Изменения успешно сохранены";
+"please_try_image_with_formats" = "Попробуйте загрузить изображение с форматами .png, .jpg или .jpeg.";
+"image_is_too_large_or_too_small" = "Размер изображение неправильно";
+"email_already_exist_in_database" = "Электронная почта уже существует в базе данных";
+"code_is_incorrect" = "Код указан неверно";
+"code_is_required" = "Код обязательно";
+"rate_values_is_incorrect" = "Неправильные значения оценки";
+"successfully_rated" = "Успешно оценен";
+"comment_should_be_in_1_to_200_range" = "Комментарий должен быть в диапазоне 1...200";
+"there_is_no_such_worker_in_database" = "В базе данных нет такого работника";
+"your_order_already_in_pending_with_this_worker" = "Ваш заказ уже находится на рассмотрении этого работника";
+"your_order_is_confirmed" = "Ваш заказ подтвержден";
+"phone_number_is_empty_or_incorrect" = "Номер телефона пуст или неправильный";
+
+"phone_number_format_is_incorrect" = "Введите номер телефона правильном формате!";
+
+// Alert actions
+"please_try_later" = "Пожалуйста, попробуйте позже";
+"please_wait_for_code" = "Пожалуйста, дождитесь кода";
+"code" = "Код";
+"please_activate_your_profile" = "Пожалуйста, активируйте свой профиль";
+"resend" = "Повторить";
+"activation" = "Активация";
+"this_app_is_not_allowed_to_query_for_scheme_tel" = "Это приложение не поддерживает функционал звонка";
+"warning" = "Внимание!";
+"rate_order" = "Оценить Заказать";
+"your_rate_for_order_is" = "Ваша оценка для заказа";
+"Ok" = "ОК";

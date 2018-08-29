@@ -1,0 +1,111 @@
+/* 
+  Localizable.strings
+  ShtapOgnutyun
+
+  Created by My Mac on 5/15/18.
+  Copyright © 2018 SixelIT. All rights reserved.
+*/
+
+//home
+"not_found_categories" = "No categories found";
+"no_vacancies_found" = "No vacancies found";
+"home" = "Home";
+"client" = "Client";
+"vacancies" = "Vacancies";
+
+//history
+"history" = "History";
+"no_internet" = "Please check internet connection";
+"empty_history" = "You haven't had history yet";
+"bonus" = "BONUS";
+"date" = "Date";
+"paid" = "Fee";
+
+"settings" = "Settings";
+"login" = "Login";
+"login_desc" = "Insert your email and password for login";
+"phone" = "Phone";
+"password" = "Password";
+"confirm_password" = "Confirm Password";
+"create_new_account" = "Create new account";
+"registration" = "Registration";
+"register" = "Register";
+"register_an_account" = "Register an account";
+"full_name" = "Fullname";
+"email_address" = "Email Address";
+"phone_number" = "Phone Number";
+"have_an_account" = "Do you have an account?";
+"forgot_password" = "Forgot password";
+
+
+//craftsman
+"craftsman" = "Craftsman";
+"craftsman_empty_list" = "No workers at this moment";
+
+//contact us
+"contact_us" = "Contuct us";
+"contact_us_desc" = "Dear customer, Please login to see order history and rate a master.";
+"contact_us_desc1" = "Dear customer, Please call to confirm the order.";
+"apply_to_work" = "In order to apply for a job, please contact us by clicking on the call button.";
+"online" = "Online";
+
+//rate master
+"rate_master" = "Rate master";
+"comment" = "Comment";
+"please_enter_your_comment" = "Please enter a comment";
+"send" = "Send";
+
+//Settings
+
+"logOut" = "Log out";
+"full_name" = "Full name";
+"phone" = "Phone";
+"language" = "Language";
+"cancel" = "Cancel";
+"done" = "Done";
+
+// server responces
+"internal_server_error" = "Internal server error";
+"please_login_in_order_to_make_online_order" = "Please login in order to make online order";
+"please_fill_all_fields" = "Please fill all fields";
+"phone_number_already_registered" = "Phone number already registered";
+"phone_number_already_isntRegistered" = "Phone number is not registered";
+"phone_number_already_registered_please_activate_profile_on_login_page" = "Phone number already registered please activate profile on login page";
+"password_should_be_6_to_60" = "Password should be 6...60";
+"name_should_be_2_to_60" = "Name should be 2...60";
+"login_or_password_is_incorrect" = "Login or password is incorrect";
+"name_field_is_required_or_incorrect" = "Name field is required or incorrect";
+"phone_number_is_required" = "Phone number is required";
+"something_wrong_with_your_password!" = "Something wrong with your password!";
+"passwords_dont_match!" = "Passwords don't match!";
+
+"passwords_succsesfuly_saved!" = "Password successfully changed";
+
+"enter_email_with_correct_format!" = "Enter email with correct format!";
+"changes_successfully_saved" = "Changes successfully saved";
+"please_try_image_with_formats" = "Please try image with .png, .jpg or .jpeg formats";
+"image_is_too_large_or_too_small" = "Image is too large or too small";
+"email_already_exist_in_database" = "Email already exist in database";
+"code_is_incorrect" = "Code is incorrect";
+"code_is_required" = "Code required";
+"rate_values_is_incorrect" = "Rate values is incorrect";
+"successfully_rated" = "Successfully rated";
+"comment_should_be_in_1_to_200_range" = "Comment should be in 1...200 range";
+"there_is_no_such_worker_in_database" = "There is no such worker in database";
+"your_order_already_in_pending_with_this_worker" = "Your order already in pending with this worker";
+"your_order_is_confirmed" = "Your order is confirmed";
+"phone_number_is_empty_or_incorrect" = "Phone number is empty or incorrect";
+"phone_number_format_is_incorrect" = "Phone with correct format!";
+// Alert actions
+"please_try_later" = "Please try later";
+"please_wait_for_code" = "Please wait for code";
+"code" = "Code";
+"please_activate_your_profile" = "Please activate your profile";
+"resend" = "Resend";
+"activation" = "Activation";
+"this_app_is_not_allowed_to_query_for_scheme_tel" = "This app is not allowed to query for scheme tel";
+"warning" = "Warning !";
+"rate_order" = "Rate Order";
+"your_rate_for_order_is" = "Your rate for order is";
+"Ok" = "Ok";
+
